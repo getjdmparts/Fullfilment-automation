@@ -6,7 +6,7 @@ const notion = new Client({ auth: process.env.NOTION_API_KEY });
 const DATABASES = {
   fulfillment_customers: 'cb96e7a3-6c1b-82a6-b807-885a8f486fdb',
   orders_fulfillment: '2eb6e7a3-6c1b-8227-8cf4-88393a1c4f25',
-  quotes_sourcing: 'cb96e7a3-6c1b-82a6-b807-885a8f486fdb',
+  quotes_sourcing: '2216e7a3-6c1b-8323-ba9d-08c185ffc054',
   clients: '00e6e7a3-6c1b-837f-b67e-0802f492c6aa',
   sales: '4fe6e7a3-6c1b-826f-9ef6-08effc686996'
 };
