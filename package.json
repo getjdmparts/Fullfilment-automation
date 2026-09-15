@@ -1,0 +1,16 @@
+{
+  "name": "fulfillment-automation",
+  "version": "1.0.0",
+  "description": "Notion automation for fulfillment syncing",
+  "main": "fulfillment-automation.js",
+  "scripts": {
+    "start": "node fulfillment-automation.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.13",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
