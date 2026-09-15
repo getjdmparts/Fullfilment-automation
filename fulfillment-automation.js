@@ -4,11 +4,11 @@ const { Client } = require('@notionhq/client');
 const notion = new Client({ auth: process.env.NOTION_API_KEY });
 
 const DATABASES = {
-  fulfillment_customers: 'd346e7a3-6c1b-821b-afa4-07fae919fb2a',
-  orders_fulfillment: '0316e7a3-6c1b-8279-a6da-87778f59f84f',
-  quotes_sourcing: '4f76e7a3-6c1b-83cd-8903-077b6e990bb2',
-  clients: '65a6e7a3-6c1b-8353-ba92-07d9159fa21f',
-  sales: '61d6e7a3-6c1b-8328-bcd0-07dd4d074e3a'
+  fulfillment_customers: 'cb96e7a3-6c1b-82a6-b807-885a8f486fdb',
+  orders_fulfillment: '2eb6e7a3-6c1b-8227-8cf4-88393a1c4f25',
+  quotes_sourcing: 'cb96e7a3-6c1b-82a6-b807-885a8f486fdb',
+  clients: '00e6e7a3-6c1b-837f-b67e-0802f492c6aa',
+  sales: '4fe6e7a3-6c1b-826f-9ef6-08effc686996'
 };
 
 const log = (type, msg) => {
